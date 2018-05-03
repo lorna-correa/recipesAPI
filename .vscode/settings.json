@@ -1,0 +1,14 @@
+{
+  "liveSassCompile.settings.formats": [
+    {
+      "savePath": "/public/css/",
+      "format": "expanded"
+    }
+  ],
+  "liveSassCompile.settings.excludeList": [
+    "**/node_modules/**",
+    ".vscode/**",
+    "**/other/**"
+  ],
+  "git.ignoreLimitWarning": true
+}

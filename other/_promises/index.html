@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Promises!</title>
+</head>
+<body>
+  <script>
+const postsPromise = fetch('https://api.punkapi.com/v2/beers/');
+
+postsPromise
+.then(data => data.json())
+.then(data => {
+  console.log(data);
+})
+// .catch(err => {
+//   console.error(err);
+// });
+  </script>
+</body>
+</html>
